@@ -17,13 +17,13 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🔰 线路选择`select`[]🚀 高速CN2`[]🚁 极速中继`[]🛰 IPLC专线`[]🍙 指定节点`[]⏩ 不走代理
-custom_proxy_group=🚀 高速CN2`select`[]🚀 自动选择`(CN2|HINET)
+custom_proxy_group=🔰 线路选择`select`[]🚁 极速中继`[]🛰 IPLC专线`[]🚀 高速CN2`[]🍙 指定节点`[]⏩ 不走代理
 custom_proxy_group=🚁 极速中继`select`[]🚁 自动选择`(中继)
 custom_proxy_group=🛰 IPLC专线`select`[]🛰 自动选择`(IPLC|专线)
+custom_proxy_group=🚀 高速CN2`select`[]🚀 自动选择`(CN2|HINET)
 custom_proxy_group=🍙 指定节点`select`.*
 custom_proxy_group=🎥 分流-NETFLIX`select`[]🚁 极速中继`[]🔰 线路选择`(中继|CN2 香港)`[]⏩ 不走代理
-custom_proxy_group=📹 分流-YouTube`select`[]🚀 高速CN2`[]🚁 极速中继`[]🔰 线路选择`(中继|CN2)`[]⏩ 不走代理
+custom_proxy_group=📹 分流-YouTube`select`[]🚁 极速中继`[]🔰 线路选择`(中继|CN2)`[]⏩ 不走代理
 custom_proxy_group=📲 分流-电报代理`select`[]🔰 线路选择`[]🛰 IPLC专线`(新加坡)`[]⏩ 不走代理
 custom_proxy_group=🚀 自动选择`url-test`(CN2|HINET)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🚁 自动选择`url-test`(中继)`http://www.gstatic.com/generate_204`400
